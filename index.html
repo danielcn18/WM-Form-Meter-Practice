@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            width: auto;
+            font-size: 30px;
+        }
+        label, p, meter{
+            padding: 10px;
+        }
+        meter{
+            height: 6vh;
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="temp">Temperature:</label>
+        <p>0</p>
+        <meter min="0" max="120" low="74" high="76" optimum="75" value="60"></meter> 
+        <p>120</p>
+    </div>
+</body>
+</html>
